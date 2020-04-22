@@ -5,7 +5,7 @@ suid = "YL916B9pGDWbmzEh"
 url = 'http://b-api.ins.miaopai.com/1/user/medias.json?count=20&page=1&suid={}'
 ```
 
-default_headeres:
+default_headers:
 ```
   "Accept-Encoding": "gzip",
   'User-Agent':'okhttp/3.3.1',
