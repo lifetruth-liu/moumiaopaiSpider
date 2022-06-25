@@ -2,7 +2,7 @@ demo url
 ```
 # 用户贴子列表
 suid = "YL916B9pGDWbmzEh"
-url = 'http://b-api.ins.miaopai.com/1/user/medias.json?count=20&page=1&suid={}'
+url = 'http://b-api.ins.moumiaopai.com/1/user/medias.json?count=20&page=1&suid={}'
 ```
 
 default_headers:
@@ -10,13 +10,13 @@ default_headers:
   "Accept-Encoding": "gzip",
   'User-Agent':'okhttp/3.3.1',
   'Connection':'Keep-Alive',
-  "Host":'b-api.ins.miaopai.com',
+  "Host":'b-api.ins.moumiaopai.com',
   'cp_ver':'7.1.70',
   'cp_appid':'424',
   'cp_sver':'5.1.1',
   'cp_channel':'xiaomi_market',
   'cp_os':'android',
-  'cp_vend':'miaopai',
+  'cp_vend':'moumiaopai',
 ```
 
 请求中间件:
